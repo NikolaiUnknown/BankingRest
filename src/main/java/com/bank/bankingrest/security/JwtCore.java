@@ -10,10 +10,10 @@ import java.util.Date;
 
 @Component
 public class JwtCore {
-    @Value(value = "${todolist.app.secret}")
+    @Value(value = "${banking.app.secret}")
     private String secret;
     //private final Key secret = Keys.secretKeyFor(SignatureAlgorithm.HS256);
-    @Value("${todolist.app.lifetime}")
+    @Value("${banking.app.lifetime}")
     private int lifetime;
 
     public String generateToken(Authentication authentication){

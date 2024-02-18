@@ -3,7 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/Bank
     password: root
     username: postgres
-todolist:
+banking:
   app:
     secret: sadsafasdfasdfSA24323FDsfdsfdsf232ASFDSFDSfdsfdsfsdfg32SASS
     lifetime: 360000
